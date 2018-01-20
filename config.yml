@@ -1,0 +1,57 @@
+﻿account:
+#   login: 
+#   password: 
+   id: 
+   token: 
+settings:
+   threads: 1
+   max-per-min: 15
+app: 
+   id:  
+   secret: 
+captcha:
+   key: 
+   attempts: 10
+admins:
+   - 1  
+enabled-commands:
+   - Meme
+   - Service
+   - Who
+   - Bugurt
+   - When
+   - Chance
+   - Help
+   - Status
+   - Stats
+   - Count
+   - SavedPhoto
+   - Rate 
+   - TextDefacer
+   - Emoji
+   - Gif
+   - RegDate
+   - Pron
+   - Webm
+content:
+   memes:
+     type: Meme
+     groups:
+        - mudakoff
+   bugurt:
+     type: Bugurt
+     groups:
+        - bugurt_thread
+   webm:
+     type: Webm
+     groups:  
+        - vinevinevine
+   saved:
+     type: Saved
+     groups:
+        - inscriptions_on_pics
+   pron: 
+     type: Pron
+     groups:  
+        - tf.erotica
+        - nu_art_erotica
